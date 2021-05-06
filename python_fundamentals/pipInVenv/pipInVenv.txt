@@ -1,0 +1,9 @@
+pip3 gives a description and listing of all possible pip commands
+pip install Django== installs the specified version of the Django framework when the vEnv is active
+pip list lists all installed packages
+deactivate does exactly that for the active vEnv
+pip3 list shows the version of pip installed and associated pip files
+source path/vEnv/bin/activate activates a vEnv
+pip freeze outputs the installed packages in requirements format
+pip unistall will uninstall a specified package
+pip show shows information about installed packages

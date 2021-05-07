@@ -68,10 +68,12 @@ dojo = {
 }
 
 def print_info(some_dict):
-    for k, v in some_dict.items():
-        print(len(v), k.upper())
-        for i in range(len(v)):
-            print(v[i])
+    for key, val in some_dict.items():
+        print(len(val), key.upper())
+        for i in range(len(val)):
+            print(val[i])
+        print('\n')
+
 
 
 print_info(dojo)
